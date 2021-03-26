@@ -1,0 +1,324 @@
+60632 - 2021-03-22 19:51:33,890 - __main__ - INFO - [init] : Starting app.py
+46604 - 2021-03-22 19:51:36,535 - __main__ - INFO - [init] : Starting app.py
+46604 - 2021-03-22 19:57:31,141 - __main__ - INFO - [loadData] : Initializing...fetching data
+46604 - 2021-03-22 19:57:31,157 - __main__ - INFO - [fetch_data] : start of fetch_data : 1616423251.1572104
+62840 - 2021-03-22 19:57:35,806 - __main__ - INFO - [init] : Starting app.py
+42112 - 2021-03-22 20:00:14,318 - __main__ - INFO - [init] : Starting app.py
+42112 - 2021-03-22 20:02:25,103 - __main__ - INFO - [cleanData] : Initializing......correct / clean input 
+42112 - 2021-03-22 20:02:26,124 - __main__ - INFO - [correct_input] : Istart of correct_input : 1616423546.1248524
+42112 - 2021-03-22 20:02:30,258 - __main__ - INFO - [cleanData]df=815011['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+54032 - 2021-03-22 20:02:35,224 - __main__ - INFO - [init] : Starting app.py
+54888 - 2021-03-22 20:04:23,249 - __main__ - INFO - [init] : Starting app.py
+73320 - 2021-03-22 20:05:36,657 - __main__ - INFO - [init] : Starting app.py
+57600 - 2021-03-22 20:11:15,817 - __main__ - INFO - [init] : Starting app.py
+69648 - 2021-03-22 20:11:26,133 - __main__ - INFO - [init] : Starting app.py
+47136 - 2021-03-22 20:11:49,940 - __main__ - INFO - [init] : Starting app.py
+64808 - 2021-03-22 20:12:53,680 - __main__ - INFO - [init] : Starting app.py
+70940 - 2021-03-22 21:41:02,707 - __main__ - INFO - [init] : Starting app.py
+72116 - 2021-03-22 21:41:08,842 - __main__ - INFO - [init] : Starting app.py
+72116 - 2021-03-22 21:41:50,596 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+72116 - 2021-03-22 21:41:50,614 - __main__ - ERROR - [modelCompare] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 84, in modelCompare |     output = model_compare(logger, fconfig["inputdata"], fconfig["processdata"]) |   File "C:\\work_product\\python_al\\capstone\\code\\model.py", line 170, in model_compare |     logger.info("".join(["[" , fn_name_from_inspect , "]" , " : start of model_compare : ", str(time.time())])) | NameError: name \'time\' is not defined'
+63096 - 2021-03-22 21:41:59,553 - __main__ - INFO - [init] : Starting app.py
+58736 - 2021-03-22 21:43:00,951 - __main__ - INFO - [init] : Starting app.py
+63152 - 2021-03-22 21:43:07,874 - __main__ - INFO - [init] : Starting app.py
+63152 - 2021-03-22 21:43:14,366 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+63152 - 2021-03-22 21:43:14,393 - __main__ - INFO - [model_compare] : start of model_compare : 1616429594.3937712
+63152 - 2021-03-22 21:43:14,396 - __main__ - ERROR - [model_compare] : error in model_predict due to ....(<class 'NameError'>, NameError("name 'fconfig' is not defined"), <traceback object at 0x000001D63B3B4288>) | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\model.py", line 173, in model_compare |     output = model_compare(logger, fconfig["inputdata"], fconfig["processdata"]) | NameError: name \'fconfig\' is not defined'
+63152 - 2021-03-22 21:43:14,404 - __main__ - ERROR - [modelCompare] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 86, in modelCompare |     raise Exception | Exception'
+67472 - 2021-03-22 21:43:58,537 - __main__ - INFO - [init] : Starting app.py
+62952 - 2021-03-22 21:44:06,197 - __main__ - INFO - [init] : Starting app.py
+62952 - 2021-03-22 21:44:12,068 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+62952 - 2021-03-22 21:44:12,078 - __main__ - INFO - [model_compare] : start of model_compare : 1616429652.0789602
+62952 - 2021-03-22 21:44:12,137 - __main__ - INFO - [fetch_data] : start of fetch_data : 1616429652.137923
+19864 - 2021-03-22 21:44:24,514 - __main__ - INFO - [init] : Starting app.py
+19864 - 2021-03-22 21:45:16,977 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+19864 - 2021-03-22 21:45:17,001 - __main__ - INFO - [model_compare] : start of model_compare : 1616429717.0019698
+19864 - 2021-03-22 21:45:17,030 - __main__ - INFO - [fetch_data] : start of fetch_data : 1616429717.0307276
+19864 - 2021-03-22 21:46:01,011 - __main__ - INFO - [model_compare]df=815011['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed']
+71908 - 2021-03-22 21:46:13,599 - __main__ - INFO - [init] : Starting app.py
+63948 - 2021-03-22 21:48:31,403 - __main__ - INFO - [init] : Starting app.py
+61136 - 2021-03-22 21:49:48,175 - __main__ - INFO - [init] : Starting app.py
+68892 - 2021-03-22 21:52:44,099 - __main__ - INFO - [init] : Starting app.py
+72708 - 2021-03-22 21:52:51,947 - __main__ - INFO - [init] : Starting app.py
+72708 - 2021-03-22 21:53:14,362 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+72708 - 2021-03-22 21:53:14,376 - __main__ - INFO - [model_compare] : start of model_compare : 1616430194.3766193
+72708 - 2021-03-22 21:53:14,655 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+72708 - 2021-03-22 21:53:14,760 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616430194.7607913
+72708 - 2021-03-22 21:53:14,824 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+72708 - 2021-03-22 21:53:14,838 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+72708 - 2021-03-22 21:53:14,840 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+72708 - 2021-03-22 21:53:14,844 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616430194.8447502
+72708 - 2021-03-22 21:53:14,880 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+72708 - 2021-03-22 21:53:14,887 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+72708 - 2021-03-22 21:53:14,892 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+72708 - 2021-03-22 21:53:14,901 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616430194.9013858
+72708 - 2021-03-22 21:53:14,903 - __main__ - ERROR - [model_polynomial_reg] : error in model_polynomial_reg due to ....(<class 'TypeError'>, TypeError('expected 1D vector for x'), <traceback object at 0x0000016BCB24BFC8>) | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\model.py", line 123, in model_polynomial_reg |     f = np.polyfit(x, y, 3) |   File "<__array_function__ internals>", line 6, in polyfit |   File "C:\\ProgramData\\Anaconda3\\lib\\site-packages\\numpy\\lib\\polynomial.py", line 599, in polyfit |     raise TypeError("expected 1D vector for x") | TypeError: expected 1D vector for x'
+72708 - 2021-03-22 21:53:14,908 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : None : MSE : None
+72708 - 2021-03-22 21:53:14,909 - __main__ - ERROR - [modelCompare] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 85, in modelCompare |     if "errorType" in output.keys(): | AttributeError: \'NoneType\' object has no attribute \'keys\''
+71148 - 2021-03-22 21:53:22,907 - __main__ - INFO - [init] : Starting app.py
+70612 - 2021-03-22 21:57:55,789 - __main__ - INFO - [init] : Starting app.py
+14996 - 2021-03-22 21:59:32,437 - __main__ - INFO - [init] : Starting app.py
+61332 - 2021-03-22 21:59:47,369 - __main__ - INFO - [init] : Starting app.py
+52076 - 2021-03-22 21:59:55,639 - __main__ - INFO - [init] : Starting app.py
+52076 - 2021-03-22 22:00:01,822 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+52076 - 2021-03-22 22:00:01,838 - __main__ - INFO - [model_compare] : start of model_compare : 1616430601.8382847
+52076 - 2021-03-22 22:00:02,243 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+52076 - 2021-03-22 22:00:02,364 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616430602.3642383
+52076 - 2021-03-22 22:00:02,425 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+52076 - 2021-03-22 22:00:02,432 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+52076 - 2021-03-22 22:00:02,442 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+52076 - 2021-03-22 22:00:02,452 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616430602.452336
+52076 - 2021-03-22 22:00:02,499 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+52076 - 2021-03-22 22:00:02,506 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+52076 - 2021-03-22 22:00:02,522 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+52076 - 2021-03-22 22:00:02,530 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616430602.5306797
+52076 - 2021-03-22 22:00:02,574 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001175 x - 0.03849 x + 0.2755 x + 0.4727
+52076 - 2021-03-22 22:00:02,582 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.000661870307093082
+52076 - 2021-03-22 22:00:02,590 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 102.64331812727724
+52076 - 2021-03-22 22:00:02,593 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : 0.000661870307093082 : MSE : 102.64331812727724
+52076 - 2021-03-22 22:00:02,602 - __main__ - ERROR - [modelCompare] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 85, in modelCompare |     if "errorType" in output.keys(): | AttributeError: \'NoneType\' object has no attribute \'keys\''
+65624 - 2021-03-22 22:01:47,640 - __main__ - INFO - [init] : Starting app.py
+65624 - 2021-03-22 22:02:22,701 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+65624 - 2021-03-22 22:02:22,721 - __main__ - INFO - [model_compare] : start of model_compare : 1616430742.721441
+65624 - 2021-03-22 22:02:23,018 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+65624 - 2021-03-22 22:02:23,141 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616430743.1416981
+65624 - 2021-03-22 22:02:23,260 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+65624 - 2021-03-22 22:02:23,270 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+65624 - 2021-03-22 22:02:23,276 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+65624 - 2021-03-22 22:02:23,281 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616430743.2814846
+65624 - 2021-03-22 22:02:23,307 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+65624 - 2021-03-22 22:02:23,318 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+65624 - 2021-03-22 22:02:23,321 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+65624 - 2021-03-22 22:02:23,361 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616430743.3615232
+65624 - 2021-03-22 22:02:23,368 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001175 x - 0.03849 x + 0.2755 x + 0.4727
+65624 - 2021-03-22 22:02:23,384 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.000661870307093082
+65624 - 2021-03-22 22:02:23,391 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 102.64331812727724
+65624 - 2021-03-22 22:02:23,391 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : 0.000661870307093082 : MSE : 102.64331812727724
+65624 - 2021-03-22 22:02:23,397 - __main__ - ERROR - [modelCompare] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 85, in modelCompare |     if "errorType" in output.keys() and "errorOn" in output.keys(): | AttributeError: \'NoneType\' object has no attribute \'keys\''
+72784 - 2021-03-22 22:03:24,333 - __main__ - INFO - [init] : Starting app.py
+72784 - 2021-03-22 22:03:30,405 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+72784 - 2021-03-22 22:03:30,422 - __main__ - INFO - [model_compare] : start of model_compare : 1616430810.4224014
+72784 - 2021-03-22 22:03:30,755 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+72784 - 2021-03-22 22:03:30,926 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616430810.9262156
+72784 - 2021-03-22 22:03:30,985 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+72784 - 2021-03-22 22:03:30,993 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+72784 - 2021-03-22 22:03:31,004 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+72784 - 2021-03-22 22:03:31,013 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616430811.0136108
+72784 - 2021-03-22 22:03:31,056 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+72784 - 2021-03-22 22:03:31,075 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+72784 - 2021-03-22 22:03:31,086 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+72784 - 2021-03-22 22:03:31,095 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616430811.0951514
+72784 - 2021-03-22 22:03:31,140 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001175 x - 0.03849 x + 0.2755 x + 0.4727
+72784 - 2021-03-22 22:03:31,149 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.000661870307093082
+72784 - 2021-03-22 22:03:31,158 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 102.64331812727724
+72784 - 2021-03-22 22:03:31,161 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : 0.000661870307093082 : MSE : 102.64331812727724
+72784 - 2021-03-22 22:03:31,175 - __main__ - ERROR - [modelCompare] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 95, in modelCompare |     + " \\n\\t Polynomial regression => : R-square : " + str(pr_rSqScore) + " : MSE : " + str(pr_mse) | NameError: name \'slr_rSqScore\' is not defined'
+68112 - 2021-03-22 22:04:31,343 - __main__ - INFO - [init] : Starting app.py
+62952 - 2021-03-22 22:05:10,544 - __main__ - INFO - [init] : Starting app.py
+62952 - 2021-03-22 22:05:34,738 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+62952 - 2021-03-22 22:05:34,756 - __main__ - INFO - [model_compare] : start of model_compare : 1616430934.7561476
+62952 - 2021-03-22 22:05:35,068 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+62952 - 2021-03-22 22:05:35,197 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616430935.1971018
+62952 - 2021-03-22 22:05:35,239 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+62952 - 2021-03-22 22:05:35,261 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+62952 - 2021-03-22 22:05:35,267 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+62952 - 2021-03-22 22:05:35,286 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616430935.2860749
+62952 - 2021-03-22 22:05:35,329 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+62952 - 2021-03-22 22:05:35,355 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+62952 - 2021-03-22 22:05:35,359 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+62952 - 2021-03-22 22:05:35,387 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616430935.387329
+62952 - 2021-03-22 22:05:35,413 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001175 x - 0.03849 x + 0.2755 x + 0.4727
+62952 - 2021-03-22 22:05:35,431 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.000661870307093082
+62952 - 2021-03-22 22:05:35,439 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 102.64331812727724
+62952 - 2021-03-22 22:05:35,446 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : 0.000661870307093082 : MSE : 102.64331812727724
+70788 - 2021-03-22 22:09:09,966 - __main__ - INFO - [init] : Starting app.py
+51192 - 2021-03-22 22:09:27,503 - __main__ - INFO - [init] : Starting app.py
+51192 - 2021-03-22 22:09:34,780 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+51192 - 2021-03-22 22:09:34,805 - __main__ - INFO - [model_compare] : start of model_compare : 1616431174.805111
+51192 - 2021-03-22 22:09:35,128 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+51192 - 2021-03-22 22:09:35,267 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616431175.2671244
+51192 - 2021-03-22 22:09:35,318 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+51192 - 2021-03-22 22:09:35,329 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+51192 - 2021-03-22 22:09:35,339 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+51192 - 2021-03-22 22:09:35,361 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616431175.3610623
+51192 - 2021-03-22 22:09:35,404 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+51192 - 2021-03-22 22:09:35,422 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+51192 - 2021-03-22 22:09:35,425 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+51192 - 2021-03-22 22:09:35,447 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616431175.4471219
+51192 - 2021-03-22 22:09:35,480 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001175 x - 0.03849 x + 0.2755 x + 0.4727
+51192 - 2021-03-22 22:09:35,490 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.000661870307093082
+51192 - 2021-03-22 22:09:35,500 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 102.64331812727724
+51192 - 2021-03-22 22:09:35,500 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : 0.000661870307093082 : MSE : 102.64331812727724
+51192 - 2021-03-22 22:09:35,509 - __main__ - ERROR - [modelCompare] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 104, in modelCompare |     str(output["mlr_rSqScore"]), str(output["mlr_mse"]). | AttributeError: \'str\' object has no attribute \'str\''
+64400 - 2021-03-22 22:10:26,432 - __main__ - INFO - [init] : Starting app.py
+64400 - 2021-03-22 22:10:40,634 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+64400 - 2021-03-22 22:10:40,650 - __main__ - INFO - [model_compare] : start of model_compare : 1616431240.6508114
+64400 - 2021-03-22 22:10:40,967 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+64400 - 2021-03-22 22:10:41,094 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616431241.0946188
+64400 - 2021-03-22 22:10:41,149 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+64400 - 2021-03-22 22:10:41,166 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+64400 - 2021-03-22 22:10:41,170 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+64400 - 2021-03-22 22:10:41,178 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616431241.1789556
+64400 - 2021-03-22 22:10:41,221 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+64400 - 2021-03-22 22:10:41,250 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+64400 - 2021-03-22 22:10:41,254 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+64400 - 2021-03-22 22:10:41,259 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616431241.2599535
+64400 - 2021-03-22 22:10:41,355 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001175 x - 0.03849 x + 0.2755 x + 0.4727
+64400 - 2021-03-22 22:10:41,364 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.000661870307093082
+64400 - 2021-03-22 22:10:41,370 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 102.64331812727724
+64400 - 2021-03-22 22:10:41,372 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : 0.000661870307093082 : MSE : 102.64331812727724
+16220 - 2021-03-22 22:11:29,815 - __main__ - INFO - [init] : Starting app.py
+16220 - 2021-03-22 22:12:12,426 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+16220 - 2021-03-22 22:12:12,481 - __main__ - INFO - [model_compare] : start of model_compare : 1616431332.481981
+16220 - 2021-03-22 22:12:12,821 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+16220 - 2021-03-22 22:12:13,007 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616431333.0075634
+16220 - 2021-03-22 22:12:13,050 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+16220 - 2021-03-22 22:12:13,075 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+16220 - 2021-03-22 22:12:13,082 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+16220 - 2021-03-22 22:12:13,089 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616431333.0893908
+16220 - 2021-03-22 22:12:13,146 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+16220 - 2021-03-22 22:12:13,171 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+16220 - 2021-03-22 22:12:13,176 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+16220 - 2021-03-22 22:12:13,193 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616431333.1933224
+16220 - 2021-03-22 22:12:13,219 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001175 x - 0.03849 x + 0.2755 x + 0.4727
+16220 - 2021-03-22 22:12:13,235 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.000661870307093082
+16220 - 2021-03-22 22:12:13,244 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 102.64331812727724
+16220 - 2021-03-22 22:12:13,248 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : 0.000661870307093082 : MSE : 102.64331812727724
+60508 - 2021-03-22 22:13:31,755 - __main__ - INFO - [init] : Starting app.py
+60508 - 2021-03-22 22:13:57,885 - __main__ - INFO - [modelCompare] : Initializing......model modelCompare 
+60508 - 2021-03-22 22:13:57,901 - __main__ - INFO - [model_compare] : start of model_compare : 1616431437.9010322
+60508 - 2021-03-22 22:13:58,322 - __main__ - INFO - [model_compare] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+60508 - 2021-03-22 22:13:58,449 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616431438.449602
+60508 - 2021-03-22 22:13:58,506 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+60508 - 2021-03-22 22:13:58,530 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+60508 - 2021-03-22 22:13:58,533 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+60508 - 2021-03-22 22:13:58,552 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616431438.5523024
+60508 - 2021-03-22 22:13:58,610 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [3.80683576 4.5820423  4.23866349 4.37601501 4.5820423 ] : intercept : 111613.13165386477 : slope : [-6.86757624e-02  1.21307694e-04 -5.53359379e+01 -4.97277425e+00
+ -2.09122446e-02]
+60508 - 2021-03-22 22:13:58,630 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.02463400339496369
+60508 - 2021-03-22 22:13:58,635 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 100.18110918155848
+60508 - 2021-03-22 22:13:58,649 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616431438.6499107
+60508 - 2021-03-22 22:13:58,678 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001175 x - 0.03849 x + 0.2755 x + 0.4727
+60508 - 2021-03-22 22:13:58,698 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.000661870307093082
+60508 - 2021-03-22 22:13:58,707 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 102.64331812727724
+60508 - 2021-03-22 22:13:58,712 - __main__ - INFO - [model_compare] Comparision between different model :  
+ Simple linear regression => : R-square : 4.876517976637462e-05 : MSE : 102.70629095174958 
+ Multiple linear regression => : R-square : 0.02463400339496369 : MSE : 100.18110918155848 
+ Polynomial regression => : R-square : 0.000661870307093082 : MSE : 102.64331812727724
+72700 - 2021-03-22 22:16:38,136 - __main__ - INFO - [init] : Starting app.py
+47108 - 2021-03-22 22:31:33,812 - __main__ - INFO - [init] : Starting app.py
+53992 - 2021-03-22 22:31:40,387 - __main__ - INFO - [init] : Starting app.py
+53992 - 2021-03-22 22:31:58,244 - __main__ - INFO - [modelPredictSlr] : Initializing......model modelPredictSlr
+53992 - 2021-03-22 22:31:58,244 - __main__ - ERROR - [modelPredictSlr] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 87, in modelPredictSlr |     output = model_predict_slr(logger, fconfig["processdata"]) | NameError: name \'model_predict_slr\' is not defined'
+66600 - 2021-03-22 22:32:43,646 - __main__ - INFO - [init] : Starting app.py
+66600 - 2021-03-22 22:32:52,027 - __main__ - INFO - [modelPredictSlr] : Initializing......model modelPredictSlr
+66600 - 2021-03-22 22:32:52,028 - __main__ - ERROR - [modelPredictSlr] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 87, in modelPredictSlr |     output = model_predict_slr(logger, fconfig["processdata"]) | NameError: name \'model_predict_slr\' is not defined'
+66600 - 2021-03-22 22:32:55,113 - __main__ - INFO - [modelPredictSlr] : Initializing......model modelPredictSlr
+66600 - 2021-03-22 22:32:55,116 - __main__ - ERROR - [modelPredictSlr] : Untracked Exception in 1st block | 'Traceback (most recent call last): |   File "C:\\work_product\\python_al\\capstone\\code\\app.py", line 87, in modelPredictSlr |     output = model_predict_slr(logger, fconfig["processdata"]) | NameError: name \'model_predict_slr\' is not defined'
+55564 - 2021-03-22 22:33:48,133 - __main__ - INFO - [init] : Starting app.py
+65556 - 2021-03-22 22:34:42,034 - __main__ - INFO - [init] : Starting app.py
+69844 - 2021-03-22 22:35:26,746 - __main__ - INFO - [init] : Starting app.py
+69844 - 2021-03-22 22:35:36,164 - __main__ - INFO - [modelPredictSlr] : Initializing......model modelPredictSlr
+69844 - 2021-03-22 22:35:36,176 - __main__ - INFO - [model_predict_slr] : start of model_predict_slr : 1616432736.17689
+69844 - 2021-03-22 22:35:36,366 - __main__ - INFO - [model_predict_slr] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+69844 - 2021-03-22 22:35:36,467 - __main__ - INFO - [split_train_test] : start of split_train_test : 1616432736.467502
+69844 - 2021-03-22 22:35:36,495 - __main__ - INFO - [split_train_test]number of test samples :24655number of training samples:36982
+69844 - 2021-03-22 22:35:36,506 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616432736.5068111
+69844 - 2021-03-22 22:35:36,553 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.53762942 0.70409388 0.62842822 0.65869448 0.70409388] : intercept : 0.7192270132916025 : slope : [-0.01513313]
+69844 - 2021-03-22 22:35:36,567 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 4.876517976637462e-05
+69844 - 2021-03-22 22:35:36,571 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 102.70629095174958
+71096 - 2021-03-22 22:36:23,710 - __main__ - INFO - [init] : Starting app.py
+53176 - 2021-03-22 23:04:24,339 - __main__ - INFO - [init] : Starting app.py
+73820 - 2021-03-22 23:04:28,142 - __main__ - INFO - [init] : Starting app.py
+74424 - 2021-03-22 23:04:40,771 - __main__ - INFO - [init] : Starting app.py
+74964 - 2021-03-22 23:20:57,899 - __main__ - INFO - [init] : Starting app.py
+74296 - 2021-03-22 23:21:03,265 - __main__ - INFO - [init] : Starting app.py
+74972 - 2021-03-22 23:45:12,967 - __main__ - INFO - [init] : Starting app.py
+74264 - 2021-03-22 23:45:45,960 - __main__ - INFO - [init] : Starting app.py
+75112 - 2021-03-22 23:46:35,398 - __main__ - INFO - [init] : Starting app.py
+51276 - 2021-03-22 23:47:10,593 - __main__ - INFO - [init] : Starting app.py
+74568 - 2021-03-22 23:47:52,702 - __main__ - INFO - [init] : Starting app.py
+73948 - 2021-03-22 23:48:30,054 - __main__ - INFO - [init] : Starting app.py
+69904 - 2021-03-22 23:48:48,505 - __main__ - INFO - [init] : Starting app.py
+69904 - 2021-03-22 23:49:15,141 - __main__ - INFO - [modelPredictSlr] : Initializing......model modelPredictSlr
+69904 - 2021-03-22 23:49:15,156 - __main__ - INFO - [model_predict_slr] : start of model_predict_slr : 1616437155.1564436
+69904 - 2021-03-22 23:49:15,489 - __main__ - INFO - [model_predict_slr] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+69904 - 2021-03-22 23:49:15,606 - __main__ - INFO - [split_train_test] : start of split_train_test : 1616437155.6068988
+69904 - 2021-03-22 23:49:15,630 - __main__ - INFO - [split_train_test]number of test samples :24655number of training samples:36982
+69904 - 2021-03-22 23:49:15,644 - __main__ - INFO - [model_simple_linear_reg] : start of model_simple_linear_reg : 1616437155.6443207
+69904 - 2021-03-22 23:49:15,697 - __main__ - INFO - [model_simple_linear_reg] : Prediction using data : [0.6464324  0.61841086 0.6884647  0.56236779 0.6884647 ] : intercept : 0.7024754685514604 : slope : [-0.01401077]
+69904 - 2021-03-22 23:49:15,713 - __main__ - INFO - [model_simple_linear_reg] : The R-square is : 9.872422598011799e-05
+69904 - 2021-03-22 23:49:15,716 - __main__ - INFO - [model_simple_linear_reg] : The mean square error is : 43.88156530357092
+16952 - 2021-03-22 23:49:24,486 - __main__ - INFO - [init] : Starting app.py
+16952 - 2021-03-22 23:49:26,016 - __main__ - INFO - [modelPredictMlr] : Initializing......model modelPredictMlr
+16952 - 2021-03-22 23:49:26,026 - __main__ - INFO - [model_predict_mlr] : start of model_predict_mlr : 1616437166.0265923
+16952 - 2021-03-22 23:49:26,318 - __main__ - INFO - [model_predict_mlr] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+16952 - 2021-03-22 23:49:26,424 - __main__ - INFO - [split_train_test] : start of split_train_test : 1616437166.424464
+16952 - 2021-03-22 23:49:26,445 - __main__ - INFO - [split_train_test]number of test samples :24655number of training samples:36982
+16952 - 2021-03-22 23:49:26,471 - __main__ - INFO - [model_multiple_linear_reg] : start of model_multiple_linear_reg : 1616437166.47154
+16952 - 2021-03-22 23:49:26,522 - __main__ - INFO - [model_multiple_linear_reg] : Prediction using data : [ 0.07849743 -0.07291849  4.48310122 -0.37196575  4.49503078] : intercept : 90867.17678055224 : slope : [-6.65403726e-02 -5.05899160e-05 -4.50139399e+01 -4.07598998e+00
+  3.70271780e-03]
+16952 - 2021-03-22 23:49:26,528 - __main__ - INFO - [model_multiple_linear_reg] : The R-square is : 0.05517011344021194
+16952 - 2021-03-22 23:49:26,537 - __main__ - INFO - [model_multiple_linear_reg] : The mean square error is : 41.46470793903563
+64780 - 2021-03-22 23:51:18,040 - __main__ - INFO - [init] : Starting app.py
+75320 - 2021-03-22 23:51:37,036 - __main__ - INFO - [init] : Starting app.py
+75692 - 2021-03-22 23:51:59,926 - __main__ - INFO - [init] : Starting app.py
+73416 - 2021-03-22 23:52:59,171 - __main__ - INFO - [init] : Starting app.py
+74008 - 2021-03-22 23:53:41,108 - __main__ - INFO - [init] : Starting app.py
+45524 - 2021-03-22 23:54:22,843 - __main__ - INFO - [init] : Starting app.py
+72908 - 2021-03-22 23:54:38,756 - __main__ - INFO - [init] : Starting app.py
+69692 - 2021-03-22 23:56:50,938 - __main__ - INFO - [init] : Starting app.py
+52396 - 2021-03-22 23:56:58,106 - __main__ - INFO - [init] : Starting app.py
+52396 - 2021-03-22 23:57:08,777 - __main__ - INFO - [modelPredictPlr] : Initializing......model modelPredictPlr
+52396 - 2021-03-22 23:57:08,820 - __main__ - INFO - [model_predict_plr] : start of model_predict_plr : 1616437628.820846
+52396 - 2021-03-22 23:57:09,130 - __main__ - INFO - [model_predict_plr] : No of record fetch : 61637 Columns of dataframe ['country', 'customer_id', 'invoice', 'price', 'stream_id', 'times_viewed', 'year', 'month', 'day', 'total_price', 'StreamID', 'TimesViewed', 'invoice_date']
+52396 - 2021-03-22 23:57:09,220 - __main__ - INFO - [split_train_test] : start of split_train_test : 1616437629.2202194
+52396 - 2021-03-22 23:57:09,234 - __main__ - INFO - [split_train_test]number of test samples :24655number of training samples:36982
+52396 - 2021-03-22 23:57:09,240 - __main__ - INFO - [model_polynomial_reg] : start of model_polynomial_reg : 1616437629.240389
+52396 - 2021-03-22 23:57:09,381 - __main__ - INFO - [model_polynomial_reg] : p :           3           2
+0.001174 x - 0.03854 x + 0.2775 x + 0.4547
+52396 - 2021-03-22 23:57:09,381 - __main__ - INFO - [model_polynomial_reg] : The R-square is : 0.001542775025660359
+52396 - 2021-03-22 23:57:09,388 - __main__ - INFO - [model_polynomial_reg] : The mean square error is : 43.81819183760671
+66364 - 2021-03-22 23:58:13,625 - __main__ - INFO - [init] : Starting app.py
+74756 - 2021-03-22 23:58:25,669 - __main__ - INFO - [init] : Starting app.py
+73148 - 2021-03-22 23:59:37,154 - __main__ - INFO - [init] : Starting app.py
